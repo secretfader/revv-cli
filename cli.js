@@ -4,10 +4,13 @@ const notifier = require('update-notifier');
 const meow = require('meow');
 const revv = require('revv').default;
 
-const cli = meow(
-	'Usage',
-	'  $ revv <path|glob> [...]',
-	{
+const cli = meow(`
+Usage:
+$ revv <path|glob> [...]
+
+Options:
+-t --tidy   Cleanup original, un-revved files.
+`, {
 		boolean: [
 			'tidy'
 		],
