@@ -1,5 +1,7 @@
 # revv-cli
 
+![CI Status](https://api.travis-ci.org/nicholaswyoung/revv-cli.svg?branch=master)
+
 Version static assets via your command line.
 
 ## Install
@@ -14,7 +16,11 @@ npm install -g revv-cli
 $ revv --help
 
   Usage:
-	  $ revv <path|glob> [...]
+	$ revv <path|glob> [...]
+
+	Options:
+	-t --tidy   Cleanup original, un-revved files.
+
 ```
 
 ## License
