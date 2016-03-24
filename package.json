@@ -11,7 +11,8 @@
     "dev": "concurrently --raw \"npm run w:test\" \npm run w:lint\""
   },
   "bin": {
-    "revv": "cli.js"
+    "revv": "cli.js",
+		"revv-cli": "cli.js"
   },
   "files": [
     "cli.js"
