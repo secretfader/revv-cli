@@ -1,0 +1,59 @@
+{
+  "name": "revv-cli",
+  "version": "0.1.0",
+  "description": "Version static assets via your command line.",
+  "main": "cli.js",
+  "scripts": {
+    "w:test": "ava --watch",
+    "test": "ava",
+    "w:lint": "onchange \"*.js\" -- npm run lint",
+    "lint": "xo *.js",
+    "dev": "concurrently --raw \"npm run w:test\" \npm run w:lint\""
+  },
+  "bin": {
+    "revv": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicholaswyoung/revv-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "static",
+    "asset",
+    "versioning",
+    "expire",
+    "asset",
+    "static",
+    "cache",
+    "hash",
+    "revision"
+  ],
+  "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nicholaswyoung/revv-cli/issues"
+  },
+  "homepage": "https://github.com/nicholaswyoung/revv-cli#readme",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "revv": "^1.0.0",
+    "update-notifier": "^0.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "concurrently": "^2.0.0",
+    "cp-file": "^3.1.0",
+    "del": "^2.2.0",
+    "execa": "^0.2.2",
+    "onchange": "^2.2.0",
+    "temp-write": "^2.1.0",
+    "xo": "^0.13.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
