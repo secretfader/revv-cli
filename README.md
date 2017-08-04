@@ -1,5 +1,7 @@
 # revv-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicholaswyoung/revv-cli.svg)](https://greenkeeper.io/)
+
 ![CI Status](https://api.travis-ci.org/nicholaswyoung/revv-cli.svg?branch=master)
 
 Version static assets via your command line.

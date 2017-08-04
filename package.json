@@ -42,17 +42,17 @@
   "dependencies": {
     "meow": "^3.7.0",
     "revv": "^1.0.0",
-    "update-notifier": "^0.6.3"
+    "update-notifier": "^2.2.0"
   },
   "devDependencies": {
-    "ava": "^0.13.0",
-    "concurrently": "^2.0.0",
-    "cp-file": "^3.1.0",
-    "del": "^2.2.0",
-    "execa": "^0.2.2",
-    "onchange": "^2.2.0",
-    "temp-write": "^2.1.0",
-    "xo": "^0.13.0"
+    "ava": "^0.21.0",
+    "concurrently": "^3.5.0",
+    "cp-file": "^4.2.0",
+    "del": "^3.0.0",
+    "execa": "^0.7.0",
+    "onchange": "^3.2.1",
+    "temp-write": "^3.3.0",
+    "xo": "^0.18.2"
   },
   "xo": {
     "esnext": true
